@@ -2,6 +2,8 @@
 
 [![AllMCPs Verified](https://allmcps.com/api/badge/verand)](https://allmcps.com/mcp/verand?verify=73543106-8de3-4d13-a4e5-beea35ea1b9a)
 
+[![Verand MCP connector on AI Agents Listing](https://aiagentslisting.com/verand-mcp-connector/badge.svg?claim=e86ea2452dcb2193740afcb64c5c6aa7)](https://aiagentslisting.com/mcp/verand-mcp-connector)
+
 Connect Claude, ChatGPT, Cursor, VS Code or any MCP client to [Verand](https://verand.ai), so your assistant can read your site's content, health, rankings and AI search visibility, and start work, without opening the dashboard.
 
 Verand writes content for your authority, gets it found on Google and in AI answers (ChatGPT, Gemini, Google AI Overviews, Google AI Mode, Perplexity and Claude), and tracks where you rank and where the answers name you, behind a compliance gate that stops a bad claim publishing.
