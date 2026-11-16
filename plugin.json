@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "verand",
+  "version": "1.0.0",
+  "description": "Your site's rankings, AI-answer visibility and compliance checks, plus drafts and fixes you approve.",
+  "author": { "name": "Verand", "url": "https://verand.ai" },
+  "homepage": "https://verand.ai/mcp",
+  "license": "MIT"
+}
