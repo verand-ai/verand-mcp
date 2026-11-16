@@ -54,18 +54,26 @@ Any client that supports remote MCP servers over HTTP can connect. Paste the end
 
 ## What it can do
 
-- Read your sites, articles, site issues, rankings, Search Console and Analytics data, and AI search visibility per engine
-- Generate drafts, run analyses and open a published page for refresh. These use your plan's monthly allowance, the same as the dashboard
-- Propose a fix for a failing check, with before-and-after validation
-- Save facts about your business to your knowledge base
+- Read your sites, articles, site issues, rankings, Search Console and GA4 data, and AI search visibility per assistant
+- Generate drafts, run research and analyses, and open a published page for a refresh. These use your plan's monthly allowance, the same as the dashboard
+- Edit a draft the way the editor does, with every check re-run, and propose a fix for a failing check with before-and-after validation
+- Save facts about your business to your knowledge base, and update your Brand Hub after showing you the change
+- Publish an approved article to your site, or apply a fix from your Issues list to your live pages (up to 10 at a time), but only if an account owner has turned on **Allow AI assistants to publish and apply fixes**, and only after the assistant shows you the exact text and you say yes
 
 ## What it can never do
 
-- Publish anything to your live site
-- Override a compliance block
-- Delete any of your content
+- Publish an article you haven't reviewed and approved in the chat
+- Change a live page in a way you haven't seen and approved in the chat
+- Override a hard-tier compliance block, or a review-tier flag without the account owner's switch and written reason
+- Delete an article, a draft or a page
 
-This is by construction, not by policy: there is no publish, override or delete tool for a client to call, so no instruction, mistake or prompt injection can reach one. Approval stays with a person in the dashboard.
+Publishing and applying fixes are **off** until an account owner switches them on in Verand, under Settings, Integrations, MCP connections. Each approval is tied to the exact text you were shown: if it changes, or 30 minutes pass, the publish is refused and the assistant has to show you the new version. The same compliance gate as the dashboard runs again at the moment of publishing. On a GitHub site, publishing opens a pull request rather than changing the live site.
+
+The last two lines above aren't promises about behaviour. There's no tool that deletes your articles, pages, briefs or knowledge base, and no tool can clear a hard-tier compliance block, so no instruction, mistake or prompt injection can reach one. The only things it can remove are a tracked keyword or a Brand Hub entry, each after you name it and say yes.
+
+Every tool carries MCP annotations (`readOnlyHint`, `destructiveHint`), so clients that ask before write actions will ask before every Verand write.
+
+Compliance results are researched from the regulators' own text and tested by Verand. Not reviewed by a licensed attorney. Your counsel confirms applicability. Not legal advice.
 
 ## Requirements
 
@@ -73,5 +81,6 @@ A Verand account. The connector is included on every plan. [Start at verand.ai](
 
 ## Docs and support
 
-- Full guide: [The MCP connector](https://help.verand.ai)
+- Full guide: [The MCP connector](https://verand.ai/help/the-mcp-connector)
 - Questions: open a [discussion](../../discussions) or email support@verand.ai
+- Security reports: see [SECURITY.md](SECURITY.md)

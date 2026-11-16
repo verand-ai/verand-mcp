@@ -1,0 +1,34 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "verand",
+  "version": "1.1.0",
+  "description": "Your site's rankings, AI-answer visibility and compliance checks, plus drafts and fixes you approve. Connects Hermes to Verand's hosted MCP server with OAuth sign-in, and adds a skill for answering questions about your own site from your real data.",
+  "author": {
+    "name": "Verand",
+    "email": "support@verand.ai",
+    "url": "https://verand.ai"
+  },
+  "homepage": "https://verand.ai/mcp",
+  "repository": "https://github.com/verand-ai/verand-mcp",
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "content-marketing",
+    "ai-search",
+    "ai-visibility",
+    "rank-tracking",
+    "google-search-console",
+    "compliance",
+    "wordpress",
+    "mcp"
+  ],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "verand": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}
