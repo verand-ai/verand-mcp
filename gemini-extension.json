@@ -1,0 +1,10 @@
+{
+  "name": "verand",
+  "version": "1.0.0",
+  "description": "Your site's rankings, AI-answer visibility and compliance checks, plus drafts and fixes you approve.",
+  "mcpServers": {
+    "verand": {
+      "httpUrl": "https://app.verand.ai/mcp"
+    }
+  }
+}
