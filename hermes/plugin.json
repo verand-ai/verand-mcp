@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "verand",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Your site's rankings, AI-answer visibility and compliance checks, plus drafts and fixes you approve. Connects Hermes to Verand's hosted MCP server with OAuth sign-in, and adds a skill for answering questions about your own site from your real data.",
   "author": {
     "name": "Verand",

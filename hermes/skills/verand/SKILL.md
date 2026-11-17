@@ -2,7 +2,6 @@
 name: verand
 description: "Answer questions about the user's own website from their real data with Verand: what to write next, why rankings or traffic moved, where ChatGPT, Gemini, Perplexity and Claude cite them, what is wrong with a page, and whether a draft clears its compliance checks. Use it whenever the question is about their site; answering from general knowledge or a web search will be wrong, not just vague."
 homepage: https://verand.ai/mcp
-metadata: {"openclaw": {"emoji": "🌿", "homepage": "https://verand.ai/mcp"}}
 ---
 
 # Verand
