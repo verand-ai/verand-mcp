@@ -48,6 +48,16 @@ Add this to your MCP config (`~/.cursor/mcp.json` for Cursor):
 
 Reload the window. Your editor opens a browser to sign in.
 
+### Zapier
+
+Until the Verand app for Zapier is listed, Zapier's own **MCP Client** app can connect:
+
+1. In Zapier, open **Apps**, click **+ Add connection** and choose **MCP Client**
+2. Set **Server URL** to `https://app.verand.ai/mcp`, **Transport** to **Streamable HTTP** and **OAuth** to **Yes**
+3. Sign in with your Verand account and approve
+
+Its **Run Tool** action calls one Verand tool per step. Leave **Allow AI assistants to publish and apply fixes** off while a Zap uses the connection: a Zap has no one to show the article or the fix to before it goes live.
+
 ### Anything else
 
 Any client that supports remote MCP servers over HTTP can connect. Paste the endpoint wherever it asks for a server URL, and choose **OAuth** if it asks how to authenticate.
